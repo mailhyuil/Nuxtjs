@@ -5,6 +5,7 @@ import Header from '~~/components/Header.vue';
 import Test from '~~/components/Test.vue';
 import List from '~~/components/List.vue';
 import Modal from '~~/components/Modal.vue';
+import Rest from '~~/components/Rest.vue';
 import TransitionTest from '~~/components/TransitionTest.vue';
 
 const text = ref('')
@@ -56,5 +57,8 @@ const model = ref('')
     </div>
     <div class="flex flex-col items-center">
         <TransitionTest />
+    </div>
+    <div>
+        <Rest />
     </div>
 </template>

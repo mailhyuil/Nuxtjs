@@ -3,7 +3,8 @@ export default defineNuxtConfig({
     app: {
         head: {
             title: 'My Nuxt App',
-        }
+        },
+        pageTransition: { name: 'page', mode: 'out-in' }
     },
     modules: [
         '@nuxtjs/tailwindcss'
