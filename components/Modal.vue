@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { ref } from 'vue'
+import { ref, Teleport } from 'vue'
 
 const isOpened = ref(false)
 </script>

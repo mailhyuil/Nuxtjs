@@ -5,6 +5,7 @@ import Header from '~~/components/Header.vue';
 import Test from '~~/components/Test.vue';
 import List from '~~/components/List.vue';
 import Modal from '~~/components/Modal.vue';
+import TransitionTest from '~~/components/TransitionTest.vue';
 
 const text = ref('')
 const valueToHi = ref('')
@@ -47,6 +48,13 @@ const model = ref('')
         </div>
     </div>
     <Test />
-    <List />
-    <Modal />
+    <div>
+        <List />
+    </div>
+    <div>
+        <Modal />
+    </div>
+    <div class="flex flex-col items-center">
+        <TransitionTest />
+    </div>
 </template>
