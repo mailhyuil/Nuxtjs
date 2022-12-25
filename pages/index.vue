@@ -58,7 +58,7 @@ const model = ref('')
     <div class="flex flex-col items-center">
         <TransitionTest />
     </div>
-    <div>
+    <div class="flex flex-col items-center mt-10">
         <Rest />
     </div>
 </template>
